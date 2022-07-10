@@ -1,8 +1,22 @@
 body {
     font-family: 'Joan', serif;
     font-size: 16px;
+    color: #00008b;
 }
 
-.navbar-brand {
+.navbar-brand a{
     font-family: 'Joan', serif;
+    color: #00008b;
+}
+.navbar {
+    padding-bottom: 10px;
+}
+
+/* Blog stylings*/
+.card {
+    padding: 15px 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
