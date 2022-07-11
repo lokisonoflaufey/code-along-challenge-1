@@ -13,10 +13,38 @@ body {
 }
 
 /* Blog stylings*/
-.card {
+.card, .card-title, .card-text{
+    color: #00008b;
+    
+}
+.card-title {
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+.card-text {
+    font-family: 'Poiret', cursive;
+
+}
+.btn-primary {
+    text-align: center;
     padding: 15px 20px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    margin: 30px auto;
+    display: block;
+}
+.card {
+    padding: 0 0 0 auto;
+}
+
+/*Main page stylings that can be universal if they want */
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Pangolin', cursive;
+}
+
+.fakeimg {
+    width: 200px;
+    height: 200px;;
+}
+.fancyfeet {
+    font-family: 'Splash', cursive;
 }
